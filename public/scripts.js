@@ -18,77 +18,77 @@ function getData(){
 
 		document.getElementsByClassName("person")[4].innerHTML = jData.post.post_comments[0].name
 		document.getElementsByClassName("media__info")[1].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].body
-		document.getElementsByClassName("comment__info")[1].lastElementChild.innerText = jData.post.post_comments[0].likes
+		document.getElementsByClassName("comment__info")[0].lastElementChild.innerText = jData.post.post_comments[0].likes
 		document.getElementsByClassName("reply")[0].innerText = jData.post.post_comments[0].replies
 
 		document.getElementsByClassName("person")[5].innerHTML = jData.post.post_comments[0].replys_comments[0].name
 		document.getElementsByClassName("media__info")[2].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].replys_comments[0].body
-		document.getElementsByClassName("comment__info")[2].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[0].likes
+		document.getElementsByClassName("comment__info")[1].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[0].likes
 		document.getElementsByClassName("reply")[1].innerText = jData.post.post_comments[0].replys_comments[0].replies
 
 		document.getElementsByClassName("person")[6].innerHTML = jData.post.post_comments[0].replys_comments[1].name
 		document.getElementsByClassName("media__info")[3].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].replys_comments[1].body
-		document.getElementsByClassName("comment__info")[3].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[1].likes
+		document.getElementsByClassName("comment__info")[2].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[1].likes
 		document.getElementsByClassName("reply")[2].innerText = jData.post.post_comments[0].replys_comments[1].replies
 	
 		document.getElementsByClassName("person")[7].innerHTML = jData.post.post_comments[0].replys_comments[2].name
 		document.getElementsByClassName("media__info")[4].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].replys_comments[2].body
-		document.getElementsByClassName("comment__info")[4].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[2].likes
+		document.getElementsByClassName("comment__info")[3].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[2].likes
 		document.getElementsByClassName("reply")[3].innerText = jData.post.post_comments[0].replys_comments[2].replies
 
 		document.getElementsByClassName("person")[8].innerHTML = jData.post.post_comments[0].replys_comments[2].replys_comments[0].name
 		document.getElementsByClassName("media__info")[5].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].replys_comments[2].replys_comments[0].body
-		document.getElementsByClassName("comment__info")[5].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[2].replys_comments[0].likes
+		document.getElementsByClassName("comment__info")[4].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[2].replys_comments[0].likes
 		document.getElementsByClassName("reply")[4].innerText = jData.post.post_comments[0].replys_comments[2].replys_comments[0].replies
 
 		document.getElementsByClassName("person")[9].innerHTML = jData.post.post_comments[0].replys_comments[2].replys_comments[1].name
 		document.getElementsByClassName("media__info")[6].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].replys_comments[2].replys_comments[1].body
-		document.getElementsByClassName("comment__info")[6].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[2].replys_comments[1].likes
+		document.getElementsByClassName("comment__info")[5].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[2].replys_comments[1].likes
 		document.getElementsByClassName("reply")[5].innerText = jData.post.post_comments[0].replys_comments[2].replys_comments[1].replies
 		
 		document.getElementsByClassName("person")[10].innerHTML = jData.post.post_comments[0].replys_comments[3].name
-		document.getElementsByClassName("media__info")[7].firstElementChild.nodeValue = jData.post.post_comments[0].replys_comments[3].body
-		document.getElementsByClassName("comment__info")[7].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[3].likes
+		document.getElementsByClassName("media__info")[8].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[0].replys_comments[3].body
+		document.getElementsByClassName("comment__info")[6].lastElementChild.innerText = jData.post.post_comments[0].replys_comments[3].likes
 		document.getElementsByClassName("reply")[6].innerText = jData.post.post_comments[0].replys_comments[3].replies
 
 		document.getElementsByClassName("person")[11].innerHTML = jData.post.post_comments[1].name
-		document.getElementsByClassName("media__info")[8].firstElementChild.nodeValue = jData.post.post_comments[1].body
-		document.getElementsByClassName("comment__info")[8].lastElementChild.innerText = jData.post.post_comments[1].likes
+		document.getElementsByClassName("media__info")[10].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[1].body
+		document.getElementsByClassName("comment__info")[7].lastElementChild.innerText = jData.post.post_comments[1].likes
 		document.getElementsByClassName("reply")[7].innerText = jData.post.post_comments[1].replies
 
 		document.getElementsByClassName("person")[12].innerHTML = jData.post.post_comments[2].name
-		document.getElementsByClassName("media__info")[9].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].body
-		document.getElementsByClassName("comment__info")[9].lastElementChild.innerText = jData.post.post_comments[2].likes
+		document.getElementsByClassName("media__info")[12].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].body
+		document.getElementsByClassName("comment__info")[8].lastElementChild.innerText = jData.post.post_comments[2].likes
 		document.getElementsByClassName("reply")[8].innerText = jData.post.post_comments[2].replies
 	
 		document.getElementsByClassName("person")[13].innerHTML = jData.post.post_comments[2].replys_comments[0].name
-		document.getElementsByClassName("media__info")[10].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[0].body
-		document.getElementsByClassName("comment__info")[10].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[0].likes
+		document.getElementsByClassName("media__info")[13].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[0].body
+		document.getElementsByClassName("comment__info")[9].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[0].likes
 		document.getElementsByClassName("reply")[9].innerText = jData.post.post_comments[2].replys_comments[0].replies
 
 		document.getElementsByClassName("person")[14].innerHTML = jData.post.post_comments[2].replys_comments[1].name
-		document.getElementsByClassName("media__info")[11].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].body
-		document.getElementsByClassName("comment__info")[11].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].likes
+		document.getElementsByClassName("media__info")[14].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].body
+		document.getElementsByClassName("comment__info")[10].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].likes
 		document.getElementsByClassName("reply")[10].innerText = jData.post.post_comments[2].replys_comments[1].replies
 	
 		document.getElementsByClassName("person")[15].innerHTML = jData.post.post_comments[2].replys_comments[1].replys_comments[0].name
-		document.getElementsByClassName("media__info")[12].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].replys_comments[0].body
-		document.getElementsByClassName("comment__info")[12].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[0].likes
+		document.getElementsByClassName("media__info")[15].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].replys_comments[0].body
+		document.getElementsByClassName("comment__info")[11].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[0].likes
 		document.getElementsByClassName("reply")[11].innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[0].replies
 
 		document.getElementsByClassName("person")[16].innerHTML = jData.post.post_comments[2].replys_comments[1].replys_comments[1].name
-		document.getElementsByClassName("media__info")[13].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].replys_comments[1].body
-		document.getElementsByClassName("comment__info")[13].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[1].likes
+		document.getElementsByClassName("media__info")[16].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].replys_comments[1].body
+		document.getElementsByClassName("comment__info")[12].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[1].likes
 		document.getElementsByClassName("reply")[12].innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[1].replies
 
 		document.getElementsByClassName("person")[17].innerHTML = jData.post.post_comments[2].replys_comments[1].replys_comments[2].name
-		document.getElementsByClassName("media__info")[14].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].replys_comments[2].body
-		document.getElementsByClassName("comment__info")[14].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[2].likes
+		document.getElementsByClassName("media__info")[17].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[1].replys_comments[2].body
+		document.getElementsByClassName("comment__info")[13].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[2].likes
 		document.getElementsByClassName("reply")[13].innerText = jData.post.post_comments[2].replys_comments[1].replys_comments[2].replies
 		
 		document.getElementsByClassName("person")[18].innerHTML = jData.post.post_comments[2].replys_comments[2].name
-		document.getElementsByClassName("media__info")[15].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[2].body
-		document.getElementsByClassName("comment__info")[15].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[2].likes
+		document.getElementsByClassName("media__info")[19].firstElementChild.nextSibling.nodeValue = jData.post.post_comments[2].replys_comments[2].body
+		document.getElementsByClassName("comment__info")[14].lastElementChild.innerText = jData.post.post_comments[2].replys_comments[2].likes
 		document.getElementsByClassName("reply")[14].innerText = jData.post.post_comments[2].replys_comments[2].replies
 	}
 
